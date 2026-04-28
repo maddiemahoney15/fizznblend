@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d8c6b8; /* beige background */
+  color: #124734; /* dark green text */
+  padding: 40px;
+}
+
+/* TITLE */
+h1 {
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+
+/* FORM LAYOUT */
+form {
+  max-width: 700px;
+}
+
+/* LABELS */
+label {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+/* INPUT FIELDS */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 2px solid #124734;
+  font-size: 16px;
+}
+
+/* RADIO SECTION */
+.radio-group {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.radio-group input {
+  margin-right: 8px;
+}
+
+/* BUTTONS */
+button {
+  margin-top: 25px;
+  margin-right: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  background: #124734;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0d3527;
+  transform: translateY(-2px);
+}
+
+/* RESET BUTTON (lighter style) */
+button[type="reset"] {
+  background: transparent;
+  border: 2px solid #124734;
+  color: #124734;
+}
+
+button[type="reset"]:hover {
+  background: #124734;
+  color: white;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  label {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND GRADIENT */
+.ingredients {
+  min-height: 100vh;
+  padding: 60px 80px;
+  background: linear-gradient(135deg, #e7c3d3, #f4b183, #d6cbe6);
+  color: #a0125b;
+}
+
+/* TITLE */
+.ingredients h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+/* GROUPS */
+.group {
+  margin-bottom: 40px;
+}
+
+.group h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.group p {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+/* DASH STYLE (to match your design) */
+.group p::before {
+  content: "- ";
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .ingredients {
+    padding: 40px 20px;
+  }
+
+  .ingredients h1 {
+    font-size: 40px;
+  }
+
+  .group h2 {
+    font-size: 24px;
+  }
+
+  .group p {
+    font-size: 18px;
+  }
+}
